@@ -1,5 +1,5 @@
 " Vim Syntax File
-" Language: GQuery
+" Language: gquery
 " Last Change: 2017 Sep 27
 
 if version < 600
@@ -86,4 +86,4 @@ hi def link gsqlEdge Operator
 hi def link gsqlNumber Constant
 hi def link gsqlBoolean Constant
 
-let b:current_syntax = "GQuery"
+let b:current_syntax = "gquery"
