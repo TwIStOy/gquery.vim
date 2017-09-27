@@ -73,6 +73,10 @@ syn region gsqlString start=+L\="+ skip=+\\"+ end=+"+ contains=cSpecialChar
 
 hi def link gsqlTodo Todo
 hi def link gsqlKeywords Keyword
+hi def link gsqlTypedef Keyword
+hi def link gsqlRepeat Keyword
+hi def link gsqlCondition Keyword
+hi def link gsqlStatement Keyword
 hi def link gsqlBasicType Type
 hi def link gsqlAdvanceType Type
 hi def link gsqlComplexType Type
