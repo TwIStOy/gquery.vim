@@ -30,7 +30,8 @@ syn keyword gsqlRepeat for while foreach
 syn keyword gsqlCondition if when case else
 syn keyword gsqlStatement select update delete insert
 syn keyword gsqlKeywords values to load using run with drop from where type print
-syn keyword gsqlAccumKeyword accum post-accum
+syn keyword gsqlAccumKeyword accum
+syn match gsqlAccumKeyword 'post-accum'
 syn keyword gsqlStatement order by limit having
 
 " Todo keywords {{{2
