@@ -31,7 +31,7 @@ syn keyword gsqlCondition if when case else
 syn keyword gsqlStatement select update delete insert
 syn keyword gsqlKeywords values to load using run with drop from where type print
 syn keyword gsqlAccumKeyword accum
-syn match gsqlAccumKeyword 'post-accum'
+syn match gsqlPostAccumKeyword "post-accum"
 syn keyword gsqlStatement order by limit having
 
 " Todo keywords {{{2
@@ -90,5 +90,6 @@ hi def link gsqlOperator Operator
 hi def link gsqlEdge Operator
 hi def link gsqlNumber Constant
 hi def link gsqlBoolean Constant
+hi def link gsqlPostAccumKeyword Keyword
 
 let b:current_syntax = "gquery"
