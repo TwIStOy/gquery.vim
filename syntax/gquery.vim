@@ -56,7 +56,7 @@ syn match gsqlEdge     "-("
 syn match gsqlEdge     ")-[>]\?"
  
 syn match gsqlNumber   '\<[-+]\?\d\+\>'
-" syn match gsqlNumber   '\<\d\+\>'
+syn match gsqlNumber   '\<\d\+\>'
  
 " Floating point number with decimal no E or e (+,-)
 syn match gsqlNumber   '\<[-+]\d\+\.\d*\>'
