@@ -50,6 +50,7 @@ syn match gsqlOperator "\v\>\="
 syn match gsqlOperator "\v\>"
 syn match gsqlOperator "\v\<"
 syn match gsqlOperator "\v\@"
+syn match gsqlOperator "\v->"
 syn match gsqlEdge     "-("
 syn match gsqlEdge     ")-[>]\?"
  
@@ -57,8 +58,8 @@ syn match gsqlNumber   '\<\d\+\>'
 syn match gsqlNumber   '\<[-+]\d\+\>'
  
 " Floating point number with decimal no E or e (+,-)
-syn match gsqlNumber   '\<\d\+\.\d*\>'
 syn match gsqlNumber   '\<[-+]\d\+\.\d*\>'
+syn match gsqlNumber   '\<\d\+\.\d*\>'
  
 " Floating point like number with E and no decimal point (+,-)
 syn match gsqlNumber   '\<[-+]\=\d[[:digit:]]*[eE][\-+]\=\d\+\>'
