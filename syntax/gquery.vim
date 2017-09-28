@@ -78,6 +78,8 @@ hi def link gsqlTypedef Keyword
 hi def link gsqlRepeat Keyword
 hi def link gsqlCondition Keyword
 hi def link gsqlStatement Keyword
+hi def link gsqlPostAccumKeyword Keyword
+hi def link gsqlAccumKeyword Keyword
 hi def link gsqlBasicType Type
 hi def link gsqlAdvanceType Type
 hi def link gsqlComplexType Type
@@ -90,6 +92,5 @@ hi def link gsqlOperator Operator
 hi def link gsqlEdge Operator
 hi def link gsqlNumber Constant
 hi def link gsqlBoolean Constant
-hi def link gsqlPostAccumKeyword Keyword
 
 let b:current_syntax = "gquery"
